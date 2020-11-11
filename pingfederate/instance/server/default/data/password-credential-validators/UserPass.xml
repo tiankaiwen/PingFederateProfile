@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="UserPass" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields/>
+    <urn:AdvancedFields/>
+    <urn:Tables>
+        <urn:Table name="Users">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">joe</urn:Field>
+                <urn:Field name="Password">WwIOYQUsBGEmTuhHJsiQwbU20jJWPtaeEP_rXsLZtes.Ya1PJpbl.2</urn:Field>
+                <urn:Field name="Confirm Password">8bgDHCm9sEArihyVJuQW0NqER8KkYSS_YZQQohwM-3c.5yMX9dc4.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">sarah</urn:Field>
+                <urn:Field name="Password">nHeFmlwlj-raXJiZ6WQL3Xd8avMS7C2wgsDwvQKx8yo.JG0EWcLq.2</urn:Field>
+                <urn:Field name="Confirm Password">7Fo_6htfbMrXM7gDgMVKy3u5JR1n6ArgZZyD8JiO-OU.z8Fekmx6.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">scott</urn:Field>
+                <urn:Field name="Password">zVAaO8imQlhI5D_k5nSYKQkJrz0EjkRB_2aVtJVWURg.KPiPbPI-.2</urn:Field>
+                <urn:Field name="Confirm Password">sgg8o6D2rS0hsaWA2R6p8gV9NQO7zhD_kCE10o2H9QY.ig3bfc0r.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">kevin</urn:Field>
+                <urn:Field name="Password">4FIhBt5ASOnTOZ9quDJRHAaBuqt1a89mO_zumnffisE.PBRoP4wz.2</urn:Field>
+                <urn:Field name="Confirm Password">jj2ZsP8z1tc38iCrvNqOTMESoH1xKdd0ZuZpp5-W8lY.0rNlZRYZ.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">sachin</urn:Field>
+                <urn:Field name="Password">3-qNBAzN0CuQX6fvnOxj2dcZaD3mzqP_vfEV7QbSmyE.HR_FPk8B.2</urn:Field>
+                <urn:Field name="Confirm Password">rdhBSYzOUffcpFiwASVMGB8Ak4QHhH0SiLTli1AIeKQ.bM74fgEV.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">Priya9086t@gmail.com</urn:Field>
+                <urn:Field name="Password">aPyeEo_QcWPMo4jbD031EXyvRtYUH54Kvb1t8X4n_DU.IhgCNBhR.2</urn:Field>
+                <urn:Field name="Confirm Password">kf-eoXMqBmmZKcqojQFxKDtcmm9Tyx35Ms0wEsuPGiI.6hNxyoJ_.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">sachin@etazuvllfedera2.com</urn:Field>
+                <urn:Field name="Password">_YnocFJpMS79vpI8qFvT2ux7byAkJ0jnqwG6bXVDg_k.rFdj37RS.2</urn:Field>
+                <urn:Field name="Confirm Password">HDwstqs80RncNUawYsWPJOBORQAgXBf6brs8wwLaWaM.30b_UQgV.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+</urn:PluginConfiguration>

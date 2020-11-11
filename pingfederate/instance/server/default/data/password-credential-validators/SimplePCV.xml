@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="SimplePCV" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields/>
+    <urn:AdvancedFields/>
+    <urn:Tables>
+        <urn:Table name="Users">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">MaxHello123</urn:Field>
+                <urn:Field name="Password">2gc4dkKOElDPLQq7qdN8mLyPtE6uDcHDuQnuUvQew34.TZBzz07u.2</urn:Field>
+                <urn:Field name="Confirm Password">4AmlW_3tOiYWQ56RJ70JFemURckPl2pWyV4Bj0DUaBA.B2KbOrkC.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">Priya</urn:Field>
+                <urn:Field name="Password">CK3YC4Rc8ecm8ahYIvSlHyJJBnCzJgG6F-Cr96W_Hqw.6mnTJFnX.2</urn:Field>
+                <urn:Field name="Confirm Password">vA3DWEbVQSf6OooBG7q1pcaWaX47yBPO_PM9XKpqJuE.G7J7BH2O.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">priya.anmol@gmail.com</urn:Field>
+                <urn:Field name="Password">ByNiVklqxz4mq2Eg49YakFyN7Hj-ZM654FTLvE17QL4.ib6pB23-.2</urn:Field>
+                <urn:Field name="Confirm Password">0rJ61JbZLyU7dPTkEt6gbAgOL6WNDi3eXfbLtFRJTYg.MJFye3IN.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+</urn:PluginConfiguration>

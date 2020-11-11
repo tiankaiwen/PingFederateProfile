@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="localhost:default:entityId" urn:name="localhost:default:entityId" ID="mgm9pT8j2czNa8zMmMQuVBddTtg" urn:baseUrl="https://etazuvllfedera2:9031" urn:LogLevel="STANDARD" urn:isActive="true" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:urn="urn:sourceid.org:saml2:metadata-extension:v2">
+    <md:Extensions>
+        <urn:EntityExtension PFVersion="10.1.1.0" LicenseGroup="">
+            <urn:DigitialSignatureAliases>
+                <urn:ActiveVerificationCertAlias>5q7x7376ga9spvve3h5fxkiyj</urn:ActiveVerificationCertAlias>
+            </urn:DigitialSignatureAliases>
+            <urn:Encryption>
+                <urn:EncryptionPolicy EncryptionAlgorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" KeyTransportAlgorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" EncryptAssertion="false" EncryptSubjectNameID="false" SLOEncryptSubjectNameID="false"/>
+                <urn:DecryptionPolicy AssertionEncrypted="false" SubjectNameIDEncrypted="false" AttributeEncrypted="false" SLOSubjectNameIDEncrypted="false"/>
+            </urn:Encryption>
+            <urn:ConnectionTemplateProperties/>
+            <urn:MetadataUrlId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <urn:enableAutoMetadataUpdate>false</urn:enableAutoMetadataUpdate>
+            <urn:AdditionalAllowedEntitiesConfiguration>
+                <urn:AllowAdditionalEntities>false</urn:AllowAdditionalEntities>
+                <urn:AllowAllEntities>false</urn:AllowAllEntities>
+                <urn:AdditionalAllowedEntities/>
+            </urn:AdditionalAllowedEntitiesConfiguration>
+        </urn:EntityExtension>
+    </md:Extensions>
+    <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:PFOAuthRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <md:Extensions>
+            <urn:RoleExtension LastModified="2020-10-27T18:29:33.307Z"/>
+        </md:Extensions>
+        <urn:OAuthSettings>
+            <urn:OAuthSAMLBearerMapping tokenManagerId="jwt">
+                <urn:AttributeMap Name="Username" Type="Assertion" Value="TOKEN_SUBJECT"/>
+                <urn:AttributeMap Name="OrgName" Type="Text" Value="Ping Identity Corporation"/>
+                <urn:TokenAuthorizationIssuanceCriteria/>
+            </urn:OAuthSAMLBearerMapping>
+        </urn:OAuthSettings>
+    </md:RoleDescriptor>
+    <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:PFAvailableCertsRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <urn:availableCert>
+            <urn:Base64EncodedCert>MIIDSjCCAjKgAwIBAgIGAXVrUbD1MA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDTzEPMA0GA1UEBxMGRGVudmVyMQ0wCwYDVQQKEwRQaW5nMQwwCgYDVQQLEwNEZXYxHDAaBgNVBAMTE0NvbmZpZyBTaWduaW5nIENlcnQwHhcNMjAxMDI3MTgyODM3WhcNMzUxMDI0MTgyODM3WjBmMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ08xDzANBgNVBAcTBkRlbnZlcjENMAsGA1UEChMEUGluZzEMMAoGA1UECxMDRGV2MRwwGgYDVQQDExNDb25maWcgU2lnbmluZyBDZXJ0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArRzNYOFQJE6vMg1Mnijfu/LCfOx0VhNbTcf6TFG9xahKTZcrnks7kUFtz8WTZ5/oW8vGmkvX8AAfZQ4rEHIZCHmdleZJ5WEtX55a6dtZM4SPCk9/MY/dR7oE69o5GFcNMVi5VMZowM0vnzgAxJto6YXADNriU+uJIlIuock1T7COF3ohguJMu0x7JRk2aOg9BkDbKjQVAxUbTm5xIIUeN6Cw6IG7PULjSrtKg4yzDWGEovantPZIW/ijSRHpmNjpiN+exJgvMoPUGI5x9XKKZJfJlrNo7luPSPc8KUN1K4Kj8RzmYWQT9/wogpFXNot0cgYoGtWWWLnG2iFElXd7XQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCBIXK3OUtvFgQRYusL+PJXIRlSfaOZgfHpQr//qiuDZApcRtnmKPoTLVNmt1j/qM7sVa7rKfdjkoHLdwlR354oYhZlJJuCrZ9CJX/LnZxjec/Kf6AbtHhf8B2rkqSDeDnBmdjBe+J4ZkJplr5kisvNFetDzwRpJXXehyc7nrPx79eJEvx+Wr4iVLrEHIQWEofTx3qjTBDTbORHikc7WoMGzg+Z8MAux8mwK9Ld8r0KQodvXOeIkufl0xO9Lun2faj2cVPgwqWFVeS7qbeNJVJLXZxTXB8+j7hjNwuHW0+xTebcRnueuwtRi67016tDtf9VO2jkt23dwhfwqCk7LyI1</urn:Base64EncodedCert>
+            <urn:alias>5q7x7376ga9spvve3h5fxkiyj</urn:alias>
+        </urn:availableCert>
+    </md:RoleDescriptor>
+    <md:ContactPerson contactType="administrative"/>
+</md:EntityDescriptor>
