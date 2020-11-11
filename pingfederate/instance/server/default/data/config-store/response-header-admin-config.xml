@@ -53,7 +53,7 @@
     <!-- runtime application in response-header-runtime-config.xml.            -->
     <!--                                                                       -->
     <con:map name="X-Frame-Options">
-        <con:item name="value">DENY</con:item>
+        <con:item name="value">SAMEORIGIN</con:item>
         <con:item name="include-patterns">*</con:item>
     </con:map>
 </con:config>

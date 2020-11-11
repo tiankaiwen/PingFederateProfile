@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ldap:ldap-sources xmlns:ldap="http://pingidentity.com/2004/09/ldap-ds">
+    <ldap:ldap-source id="LDAP-4842135562882789D8D26280B5464B9F900A4EB5" maskAttributeValues="false" ldapType="PingDirectory" ldapTypeDesc="PingDirectory" testOnBorrow="false" testOnReturn="false" createIfNecessary="true" minIdle="10" maxActive="100" maxWait="-1" timeBetweenEvictionRunsMillis="60000" readTimeoutMillis="3000" connTimeoutMillis="3000" verifyHost="true" dnsTtlMillis="60000" ldapDnsSrvPrefix="_ldap._tcp" ldapsDnsSrvPrefix="_ldaps._tcp">
+        <ldap:host>etazuvllpingacc2.et.lab:1389</ldap:host>
+        <ldap:principal>cn=Directory Manager</ldap:principal>
+        <ldap:use-ssl>false</ldap:use-ssl>
+        <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
+        <ldap:ad-referral>false</ldap:ad-referral>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiQmJNZHU4aHJUaSIsInZlcnNpb24iOiIxMC4xLjEuMCJ9..sEPVueJnJYKkzyEGc4dezw.1Ud8vKiQeUz3YeZPHEZzWQ.SIKvx_I9mpd9hyaRZjAz8g</ldap:credentials>
+        <ldap:authenticationMeth>simple</ldap:authenticationMeth>
+        <ldap:description>PingDirectory</ldap:description>
+        <ldap:name>PingDirectory</ldap:name>
+        <ldap:binaryAttributes/>
+        <ldap:ldapHostTagList>
+            <ldap:tagEntry host="etazuvllpingacc2.et.lab:1389" tags=""/>
+        </ldap:ldapHostTagList>
+    </ldap:ldap-source>
 </ldap:ldap-sources>
